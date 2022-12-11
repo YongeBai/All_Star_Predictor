@@ -1,4 +1,11 @@
-# All_Star_Predictor
+# NBA All-Star predictor
+This project uses data from the NBA Stats API to train an XGBoostClassifier model that predicts whether a player will become an All-Star based on their rookie year statistics. The model is trained using the sklearn library and the predictions are evaluated using a validation set.
 
-Used Sklearn, pandas, and XGBoost to predict if NBA rookies would become all stars given their rookie year stats, used matplotlib and seaborn for visualization.
-Experienced the iterative process and typical workflow of ML projects 
+## Requirements
+- numpy
+- pandas
+- seaborn
+- requests
+- sklearn
+- matplotlib
+- torch
